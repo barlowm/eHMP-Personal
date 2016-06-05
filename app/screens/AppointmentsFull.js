@@ -1,0 +1,1 @@
+define([],function(){"use strict";var e={id:"appointments-full",contentRegionLayout:"gridOne",appletHeader:"navigation",appLeft:"patientInfo",applets:[{id:"appointments",title:"Appointments & Visits",region:"center",fullScreen:!0,viewType:"expanded"}],locked:{filters:!1},patientRequired:!0,globalDatepicker:!1};return e});

@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/cds_advice/modal/reminder/reminderBodyTpl"],function(e,n,t,r){"use strict";function i(n){var t=n?{model:n}:null,i=e.Marionette.ItemView.extend({template:r});return new i(t)}return{show:function(e){var n=i(e),t={title:"Reminder"},r=new ADK.UI.Modal({view:n,options:t});r.show()}}});

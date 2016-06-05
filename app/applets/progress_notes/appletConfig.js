@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore"],function(e,n,o){var r={appletId:"progress_notes",resource:"patient-record-document",viewModel:{parse:function(e){var n=[],o=[];return e.codes&&e.codes.forEach(function(e){-1!=e.system.indexOf("loinc")&&(n.push(" "+e.code),o.push(" "+e.display))}),e.loinc=n,e.stdTestNames=o,e}}};return r});

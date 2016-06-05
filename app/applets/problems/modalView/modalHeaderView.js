@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/problems/modalView/headerTemplate"],function(e,t,a,i){"use strict";return e.Marionette.ItemView.extend({events:{"click #ccd-previous, #ccd-next":"navigateModal"},navigateModal:function(e){var t=$(e.currentTarget),a=t.attr("id");"ccd-previous"===a?this.theView.getPrevModal():this.theView.getNextModal()},template:i})});

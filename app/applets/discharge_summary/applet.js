@@ -1,0 +1,1 @@
+define(["app/applets/discharge_summary/detailController"],function(e){var r={appletId:"discharge_summary",resource:"patient-record-document"};return e.initialize(r.appletId),ADK.createSimpleApplet(r)});

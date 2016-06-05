@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","app/applets/ccd_grid/utilParse"],function(e,t,r,u){"use strict";return u.getResultedTimeFormatted=function(e){return e.resultedTimeFormatted="",e.resulted&&(e.resultedTimeFormatted=ADK.utils.formatDate(e.resulted,"HH:mm")),e},u});

@@ -1,0 +1,9 @@
+*.bak
+*.log
+*.out
+build
+node_modules
+reports
+Backup
+__Downloads
+.idea

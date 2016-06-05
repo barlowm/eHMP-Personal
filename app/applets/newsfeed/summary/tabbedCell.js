@@ -1,0 +1,1 @@
+define(["backgrid"],function(e){var t=e.Cell.extend({attributes:{tabindex:"0"}});return t});

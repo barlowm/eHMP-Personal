@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","app/applets/appointments/utilParse"],function(e,t,a,i){"use strict";return i.getDateTimeFormatted=function(e){return e.dateTime&&(e.dateTimeFormatted=ADK.utils.formatDate(e.dateTime,"MM/DD/YYYY - HH:mm")),e},i});

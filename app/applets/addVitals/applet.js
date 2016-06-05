@@ -1,0 +1,1 @@
+define(["app/applets/addVitals/views/addVitalsView"],function(e){var a="addVitalsRequestChannel",t="addVitalsModal",i={id:"addVitals",getRootView:function(){return e}};return function(){var e=ADK.Messaging.getChannel(a);e.reply(t,function(){var e=i.getRootView(),a=$.Deferred();return a.resolve({view:e}),a.promise()})}(),i});

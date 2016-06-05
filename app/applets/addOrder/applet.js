@@ -1,0 +1,1 @@
+define(["app/applets/addOrder/views/addOrderView"],function(e){var r={id:"addOrder",getRootView:function(){return e}};return function(){var e=ADK.Messaging.getChannel("medicationChannel");e.reply("addOrderModal",function(){var e=r.getRootView(),n=$.Deferred();return n.resolve({view:new e}),n.promise()})}(),r});

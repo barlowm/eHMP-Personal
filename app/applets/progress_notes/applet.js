@@ -1,0 +1,1 @@
+define(["app/applets/progress_notes/appletConfig","app/applets/progress_notes/summary/itemView","app/applets/progress_notes/summary/compositeView"],function(e,p,s){var t={appletId:e.appletId,resource:e.resource,viewModel:e.viewModel,itemView:p,compositeView:s};return ADK.createSimpleApplet(t)});

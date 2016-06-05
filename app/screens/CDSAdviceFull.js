@@ -1,0 +1,1 @@
+define([],function(){"use strict";var e={id:"cds-advice-full",contentRegionLayout:"gridOne",appletHeader:"navigation",appLeft:"patientInfo",applets:[{id:"cds_advice",title:"Clinical Reminders",region:"center",fullScreen:!0,viewType:"expanded"}],locked:{filters:!1},patientRequired:!0};return e});

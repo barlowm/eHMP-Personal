@@ -1,0 +1,1 @@
+define(["app/applets/add_nonVA_med/searchMeds"],function(e){var n={id:"add_nonVA_med",getRootView:function(){return e}};return function(){var e=ADK.Messaging.getChannel("medicationChannel");e.reply("addNonVaMedModal",function(){var e=n.getRootView(),a=$.Deferred();return a.resolve({view:new e}),a.promise()})}(),n});

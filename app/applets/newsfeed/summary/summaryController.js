@@ -1,0 +1,1 @@
+define(["app/applets/newsfeed/visitDetail/visitDetailView"],function(e){return SummaryController={handleVisitDetail:function(t){var i=new e({model:t});i.showAsModal()},detailRouter:function(e,t){var i=e.get("kind").toLowerCase();switch(i.toLowerCase()){case"admission":case"visit":return this.handleVisitDetail(e);default:t.stopPropagation()}}},SummaryController});

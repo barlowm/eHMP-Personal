@@ -1,0 +1,1 @@
+define(["backbone","marionette"],function(e,t){"use strict";var n={id:"reports-full",contentRegionLayout:"gridOne",appletHeader:"navigation",appLeft:"patientInfo",applets:[{id:"reports",title:"Reports",region:"center",fullScreen:!0}],locked:{filters:!1},patientRequired:!0};return n});

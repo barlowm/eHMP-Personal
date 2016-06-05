@@ -1,0 +1,1 @@
+define([],function(){"use strict";var e={debug:!1,defaultTimeFormat:!0};return e});

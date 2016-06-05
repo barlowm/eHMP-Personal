@@ -1,0 +1,1 @@
+define(["hbs!app/applets/consults/table","hbs!app/applets/consults/row","app/applets/consults/detailController"],function(e,t,p){var l={appletId:"consults",resource:"patient-record-consult",tableTemplate:e,rowTemplate:t};return p.initialize(l.appletId),ADK.createSimpleApplet(l)});

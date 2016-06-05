@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/cds_advice/modal/loading/loadingTpl"],function(e,n,t,o){"use strict";function i(n){var t={model:n},i=e.Marionette.ItemView.extend({template:o});return new i(t)}return{show:function(e,n){var t=i(e),o={title:n},a=new ADK.UI.Modal({view:t,options:o});a.show()}}});

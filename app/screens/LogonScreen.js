@@ -1,0 +1,1 @@
+define([],function(){var e={contentRegionLayout:"fullOne",id:"logon-screen",appHeader:"none",applets:[{id:"logon",title:"Sign In",region:"center"}],patientRequired:!1,appFooter:"none"};return e});

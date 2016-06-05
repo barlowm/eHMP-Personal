@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","app/applets/allergy_grid/utilParse"],function(t,e,r,i){"use strict";var a=i||{};return a.getModalTitle=function(t){return"Allergen - "+t.get("summary")},a.getOriginatedFormatted=function(t){return t.originatedFormatted="",t.originated&&(t.originatedFormatted=ADK.utils.formatDate(t.originated,"MM/DD/YYYY - HH:mm")),t},a});

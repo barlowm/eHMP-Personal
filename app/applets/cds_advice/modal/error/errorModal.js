@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/cds_advice/modal/error/errorTpl"],function(e,r,t,n){"use strict";function o(r){var t={model:r},o=e.Marionette.ItemView.extend({template:n});return new o(t)}return{show:function(r){var t=new e.Model({adviceTitle:r}),n=o(t),i={title:"Error"},a=new ADK.UI.Modal({view:n,options:i});a.show()}}});

@@ -1,0 +1,1 @@
+define(["app/applets/addAllergy/utils/allergiesUtil"],function(e,n){"use strict";var r,t,i=[],l=!1,a={setView:function(e){r=e.allergenView,t=e.errorView},getView:function(){return r},allergenEventHandler:function(n){l&&"undefined"!=typeof n?i.push($(n.target).val()):(l=!0,e.enableLoadingIndicator(!0),t&&t.clearErrors())}};return a});

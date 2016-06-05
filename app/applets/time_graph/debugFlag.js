@@ -1,0 +1,1 @@
+define([],function(){"use strict";var e={flag:!1,no_data_hide_div:!1,filtering_mode:"tl_master",eventsByType:!1};return e});

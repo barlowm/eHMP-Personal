@@ -1,0 +1,1 @@
+define(["app/applets/surgery/detailController"],function(e){var r={appletId:"surgery",resource:"patient-record-document-view"};return e.initialize(r.appletId),ADK.createSimpleApplet(r)});

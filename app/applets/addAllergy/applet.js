@@ -1,0 +1,1 @@
+define(["app/applets/addAllergy/allergenSearchView"],function(e){var r={id:"addAllergy",getRootView:function(){return e}};return function(){var e=ADK.Messaging.getChannel("addAllergyRequestChannel");e.reply("addAllergyModal",function(){var e=r.getRootView(),n=$.Deferred();return n.resolve({view:new e}),n.promise()})}(),r});

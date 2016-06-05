@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/allergy_grid/details/detailsTemplate"],function(e,t,a,i){"use strict";return e.Marionette.ItemView.extend({template:i})});

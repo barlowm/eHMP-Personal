@@ -1,0 +1,1 @@
+define(["moment","app/applets/immunizations/appConfig"],function(e,n){"use strict";var i=(n.debug,{isReaction:function(e){return(!e||"no"!==e.toLowerCase()&&"none"!==e.toLowerCase())&&e?"Yes":"No"},seriesNormalization:function(e){return"0"==e?"":e},setTimeSince:function(e){var n=ADK.utils.getTimeSince(e);return n.timeSince}});return i});

@@ -1,0 +1,1 @@
+define(["underscore","app/applets/vitalsEiE/views/vitalsEiEBodyView"],function(e,i){var t={id:"vitalsEiE",getRootView:function(){return i}};return function(){var e=ADK.Messaging.getChannel("vitalsEiE");e.reply("vitalsEiEView",function(){var e=t.getRootView(),i=$.Deferred();return i.resolve({view:new e}),i.promise()})}(),t});

@@ -1,0 +1,1 @@
+define(["app/applets/addOrder/helpers/opDataUtil"],function(e){return e.getComboBoxView("name")});

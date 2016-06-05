@@ -1,0 +1,1 @@
+define(["backbone","marionette","hbs!app/applets/patient_search/templates/common/errorMessageTemplate"],function(e,t,a){var n=e.Marionette.ItemView.extend({model:new e.Model,template:a,tagName:"p"});return n});

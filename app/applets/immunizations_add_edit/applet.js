@@ -1,0 +1,1 @@
+define(["app/applets/immunizations_add_edit/views/immunizationAddView"],function(i){return{id:"immunizations_add_edit",getRootView:function(){return i}}});

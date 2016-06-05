@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore"],function(e,r,o){"use strict";var t={};return t.getProblemText=function(e){return e.problem&&(e.problemText=e.problem,e.icd&&(e.problemText+=" (ICD-10-CM "+e.icd+")")),e},t.getProblem=function(e){return"No data"===e?e={problem:"Invalid"}:e.problem||(e.problem="Invalid"),e},t});

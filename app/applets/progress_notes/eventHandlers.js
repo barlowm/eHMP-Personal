@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore"],function(n,o,e){var t={sortCollection:function(n,o,e,t){ADK.utils.sortCollection(n,o,e,t)}};return t});

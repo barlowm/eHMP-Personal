@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/documents/detail/simple/docDetailTemplate"],function(e,t,n,a){"use strict";return e.Marionette.ItemView.extend({template:a})});

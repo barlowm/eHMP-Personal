@@ -1,0 +1,1 @@
+define(["backbone","hbs!app/applets/newsfeed/visitDetail/visitDetailTemplate"],function(e,t){return e.Marionette.ItemView.extend({template:t})});

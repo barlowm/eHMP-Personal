@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore"],function(e,n,t){"use strict";var r={};return r.getModalTitle=function(e){return"CCD Document - "+e.get("name")},r});

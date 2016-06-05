@@ -1,0 +1,311 @@
+.workspaceManager-applet {
+    height: calc(100% - 50px);
+    margin: 0px 45px;
+    #doneEditing {
+        color: white;
+        font-size: 3em;
+        margin-right: -40px;
+        &:hover, &:focus {
+            color: #E4EEF8;
+        }
+    }
+    .panel-primary {
+        height: calc(100% - 60px);
+        min-height: 150px;
+        .panel-heading h1{
+            font-size: 14px;
+            font-weight: 700;
+            margin: 10px;
+        }
+        .grid-filter .btn.btn-icon{
+            color: inherit;
+        }
+        .row:nth-of-type(3) {
+            height: calc(100% - 90px);
+        }
+        .header-bar {
+            background-color: $white;
+            border-bottom: 1px solid $grey-light;
+            color: $primary;
+            margin-bottom: 0px;
+            .header:first-of-type {
+                padding-left: 55px;
+            }
+        }
+        #list-group {
+            background-color: $white;
+            max-height: calc(100% - 25px);
+            min-height: 6vh;
+            overflow-y: scroll;
+            padding: 0px 15px;
+            .tableRow {
+                height: 3.5em;
+                background-color: $white;
+                border-bottom: 1px solid $grey-light;
+                border-top: 1px solid $grey-light;
+                &:hover {
+                    cursor: move;
+                }
+                &.predefined-screen-row {
+                    background-color: $grey-lighter;
+                }
+                &.rearrange-row {
+                    border: 2px solid $primary-light;
+                    cursor: move;
+                }
+                .fa-tags {
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    .previewRegion {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        .panel-primary {
+            background-color: RGBA(0, 0, 0, 0.8);
+            height: 100vh;
+            padding: 10%;
+            .panel-body {
+                background-color: $primary-lighter;
+                height: 55%;
+            }
+            .gridsterContainer {
+                height: 100%;
+                ul {
+                    list-style: none;
+                    li {
+                        background-color: $white;
+                        box-shadow: 2px 2px 1px rgba(0,0,0,0.12), 2px 2px 1px rgba(0,0,0,0.14);
+                        padding: 0px 5px;
+                        text-align: center;
+                        h4 {
+                            color: $grey-darkest;
+                            margin: 0;
+                        }
+                        p {
+                            font-size: 1.1em;
+                            font-weight: bold;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//----------------- Old styles --------------------//
+.workspaceManager-applet {
+    .tableRow {
+        line-height:2.9em;
+        padding-top: 2px;
+        .editor-title {
+            font-weight: bold;
+        }
+        .editor-input-element {
+            background-color: transparent;
+            border: none;
+            font-size:11px;
+            height: 2.9em;
+            line-height: 2.9em;
+            padding: 0px;
+            width: 100%;
+            &:focus {
+                border: solid 1px #66afe9;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            }
+        }
+    }
+    #list-group {
+        .row {
+            background-color: #e5e5e5;
+            margin: 0px;
+        }
+    }
+
+    .form-control {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .form-control::-ms-clear {
+        display: none;
+        width:0;
+        height:0;
+    }
+
+    .has-error .form-control, .has-error .form-control:focus {
+        outline-offset: -2px;
+        outline: #843534 auto 5px;
+        border: solid 1px #843534;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    }
+
+    .form-group {
+        margin-bottom:0;
+    }
+
+    // .editor-input-element::-ms-clear {
+    //     display:none;
+    // }
+
+    .editor-input-element-error {
+        border: solid 1px Red;
+        border-radius: 5px;
+    }
+    .editor-input-element-required {
+        font-size: 70%;
+        color: Red;
+        font-weight: bold;
+    }
+    .editor-input-element-saved {
+        font-size: 70%;
+        color: Green;
+        font-weight: bold;
+    }
+    .association-manager {
+        input {
+            background-color: white;
+            border-radius: 0;
+            font-size: 12px;
+            height: 30px;
+            padding-top: 8px;
+        }
+        .tt-input{
+           box-shadow: inset 0px 2px 4px;
+        }
+        .tt-dropdown-menu {
+            max-height: 17em;
+            overflow-y: auto;
+            width: 100%;
+        }
+        .tt-suggestion {
+            padding: 0;
+
+            .problem-result {
+                padding: 0 20px;
+                cursor: pointer;
+            }
+            .problem-result:focus, .problem-result:hover {
+                background-color: #E4EEF8;
+                color: black;
+            }
+            .problem-result.disabled {
+                font-style: italic;
+                color: #aaa;
+            }
+        }
+        .tt-cursor {
+            background-color: inherit;
+            color: inherit;
+        }
+        .twitter-typeahead {
+            width: 100%;
+            //padding: 11px 10px 8px 9px;
+        }
+        .typeahead-wrapper {
+            padding: 10px;
+        }
+        .problem-loading-container {
+            position: relative;
+        }
+        #problem-query-status-region {
+            position: absolute;
+            width: 100%;
+            display: none;
+            padding: 0 5px;
+            z-index: 200;
+            overflow: hidden;
+        }
+        .italicized-text {
+            font-style: italic;
+        }
+        .ellipsis-text {
+            overflow-x: hidden;
+            white-space: nowrap !important; //using !important to override inline style applied by twitter-typeahead plugin
+            text-overflow: ellipsis;
+        }
+        #no-results-text {
+            padding: 0 5px;
+        }
+        #no-associations-text {
+            padding: 10px 10px 0 10px;
+        }
+        #problem-list-region {
+            height: 112px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            border-bottom-style: solid;
+            border-top-style: solid;
+            border-width: 1px;
+
+            .problem-result {
+                line-height: 1.7em;
+                padding: 3px;
+                .close {
+                    line-height: 0.7;
+                    margin-right: -1em;
+                }
+            }
+            .fa-stack {
+                position: relative;
+                display:inline-block;
+                width: 2em;
+                height: inherit;
+                line-height: 1px;
+                vertical-align: middle;
+            }
+            .fa-stack-1x{
+                line-height: inherit;
+                font-size: .4em;
+            }
+            .fa-stack-2x{
+                font-size:.6em;
+                line-height:inherit;
+            }
+            .fa-stack-1x, .fa-stack-2x{
+                position:absolute;
+                width: inherit;
+                text-align: center;
+            }
+        }
+    }
+    .association-manager-popover {
+        height: 220px;
+        width: 350px;
+        max-width: 350px;
+        box-shadow: 2px 2px 10px 0px gray;
+    }
+    .show-associations.active{
+        background-color: #E4EEF8;
+        border: solid 2px #69A4F;
+    }
+
+    .border-right{
+        border-right: 1px solid $grey-light;
+    }
+    .border-left{
+        border-left: 1px solid $grey-light;
+    }
+    .clear-search-problem{
+        display: none;
+        border: 0;
+        background-color: transparent;
+        position: absolute;
+        top: 16px;
+        left: 305px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    #association-manager-footer{
+        position: absolute;
+        bottom: 0px;
+        right: 12px
+    }
+}

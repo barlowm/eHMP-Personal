@@ -1,0 +1,1 @@
+define(["app/applets/problems_add_edit/views/problemsAddView"],function(e){var d=ADK.Messaging.getChannel("problems");return d.comply("addProblem",e.handleShowView),{id:"problems_add_edit",getRootView:function(){return e}}});

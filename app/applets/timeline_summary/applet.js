@@ -1,0 +1,1 @@
+define(["app/applets/timeline_summary/views/timelineSummaryDG"],function(e){var i={id:"timeline_summary",getRootView:function(){return e}};return function(){var e=ADK.Messaging.getChannel("globalDate");e.reply("createTimelineSummary",function(){var e=i.getRootView(),n=$.Deferred();return n.resolve({view:new e}),n.promise()})}(),i});

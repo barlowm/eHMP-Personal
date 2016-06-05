@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore","hbs!app/applets/cds_advice/modal/default/defaultTpl"],function(e,t,n,o){"use strict";function a(t){var n={model:t},a=e.Marionette.ItemView.extend({template:o});return new a(n)}return{show:function(e){var t=a(e),n={title:"CDS Advice"},o=new ADK.UI.Modal({view:t,options:n});o.show()}}});

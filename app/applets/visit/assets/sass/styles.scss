@@ -1,0 +1,63 @@
+#Clinic-Appointments-tab-panel,
+#Hospital-Admissions-tab-panel,
+#New-Visit-tab-panel {
+    outline:none !important;
+	.datepicker-control {
+		float:left;
+		.input-group {
+			width: 115px;
+		}
+	}
+	.datepicker-control + .datepicker-control {
+		margin-left: 10px;
+	}
+	.selectableTable-control.special-class {
+		[class*='col-']{
+            display: inline-block;
+            width: 100%;
+            height: 190px;
+            overflow: auto;
+        }
+	}
+	.newVisitDateTimeWarning {
+		display: none;
+	}
+}
+.workflow-container {
+	.modal-body .scroll-enter-form {
+		.select-encounter-container {
+			padding: 5px;
+			h5 {
+				margin-bottom: 7px;
+			}
+			.read-only-well{
+				padding-bottom: 10px;
+				min-height: auto;
+			    display: inline-block;
+			    width: 100%;
+			    h6 {
+					margin: 5px 0px;
+				    font-weight: bold;
+				    text-decoration: underline;
+			    }
+			    .viewEncouters-btn {
+			    	margin-top: 20px;
+			    }
+			}
+		}
+	}
+	.modal-footer {
+		.button-control+.button-control {
+			margin-left: 5px;
+		}
+	}
+}
+.no-results {
+	border: 1px solid #ddd;
+    background-color: #fff;
+    padding-left: 5px;
+}
+.marginTopButtom{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

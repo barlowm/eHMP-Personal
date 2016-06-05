@@ -1,0 +1,1 @@
+define(["backbone","marionette","underscore"],function(e,n,t){return{addAllergyApplication:new e.Marionette.Application,events:{ADD_SYMPTOMS:"addSymptomsEvent",REMOVE_SYMPTOMS:"removeSymptomsEvent"}}});
